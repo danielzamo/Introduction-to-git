@@ -71,7 +71,7 @@ A continuacion y en orden se realiza:
 - Agregar el repositorio. El mismo (en este caso existente en el sitio de [Github][github.web] debe de estar ya creado) (comando: `git remote add origin git...`. En el actual ejemplo, es mediante `ssh` la conección. También es disponible hacerlo mediante `https`).
 - Subir el cambio al repositorio de nuestro fichero `README.md` (comando: `git push -u origin main`)
    ```bash
-   echo -e "# HOLA MUNDO\n\nEste repositorio es para una escueta introducción al uso de git." >> README.md
+   echo -e "# Hola\n\nEste es una escueta intro. al uso de git." >> README.md
    git init
    git branch -M main
    git add README.md 

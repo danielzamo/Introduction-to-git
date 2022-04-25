@@ -8,13 +8,15 @@ title: Introducción a Git
  
 # Qué es git?
  
-Git es un sistema de control de versiones distribuido. Este, a diferencia, por ejemplo, de subversion (svn), no esta centralizado en un servidor. De esta manera, este tiepo de repositorios, tienen ciertos beneficios notables.
+Git es un sistema de control de versiones distribuido. Este, a diferencia por ejemplo, de subversion (svn), no esta centralizado en un servidor. De esta manera, este tipo de repositorios, y según la dinámica de trabajo del grupo de personas que lo utilicen, tienen ciertos beneficios notables.
 
 Cada integrante que utilice un repositorio git, tiene una copia del mismo en su equipo local.
 
-__Nota inicial:__ para esta introducción se utiliza el CLI bash de Linux y se da por supuesto que se tiene git instalado en el sistema.
+__Nota inicial:__ para esta introducción se utiliza el CLI bash de Linux y se da por supuesto que se tiene git instalado en el sistema. Los sistemas basado en MacOS y algunas desktop de distribuciones Linux lo traen instalado por defecto.
 
 # Configuración inicial básica (mínima, no obligatoria)
+
+---
 
 # Inicializando un repositorio (en mi local)
 

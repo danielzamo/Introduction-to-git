@@ -10,6 +10,8 @@ title: Introducción a Git
 
 [intro.pelado.nerd]: https://youtu.be/kEPF-MWGq1w "Introducción a git. Pelado Nerd"
 
+_Representación areas de git_
+
 ```mermaid
 sequenceDiagram
     participant working dir

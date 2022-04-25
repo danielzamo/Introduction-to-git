@@ -5,7 +5,21 @@ title: Introducción a Git
 ---
  
 # Objetivo
- 
+
+> En este repositorio se comparte una escueta introducción a la utilización de _git_. Este documento esta principalmente basado en [este video del Pelado Nerd][intro.pelado.nerd], donde tambińe propone una dinamica muy común de trabajo utilizada por grupos de desarrolladores o personal devops actualmente, que utilicen sistemas de versionado distribuidos.
+
+[intro.pelado.nerd]: https://youtu.be/kEPF-MWGq1w "Introducción a git. Pelado Nerd"
+
+```mermaid
+sequenceDiagram
+    participant working dir
+    participant staging
+    participant repositorio
+    repositorio->>working dir: checkout
+    working dir->>staging: commit
+    staging->>repositorio: push
+```
+
 # Qué es git?
  
 Git es un sistema de control de versiones distribuido. Este, a diferencia por ejemplo, de subversion (svn), no esta centralizado en un servidor. De esta manera, este tipo de repositorios tienen ciertos beneficios notables con los que no cuentan los repositorio del tipo centralizado.

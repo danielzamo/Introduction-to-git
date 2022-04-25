@@ -47,6 +47,7 @@ sequenceDiagram
     participant working dir
     participant staging
     participant repositorio
+    working dir->>staging: Stage
 ```
 
 # Trayendo un repositorio

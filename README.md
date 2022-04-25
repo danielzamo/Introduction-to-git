@@ -48,6 +48,7 @@ sequenceDiagram
     participant staging
     participant repositorio
     working dir->>staging: Stage
+    staging->>repositorio: commit
 ```
 
 # Trayendo un repositorio

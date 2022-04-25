@@ -16,7 +16,8 @@ sequenceDiagram
     participant staging
     participant repositorio
     repositorio->>working dir: checkout
-    working dir->>staging: commit
+    working dir->>staging: add
+    staging->>repositorio: commit
     staging->>repositorio: push
 ```
 
@@ -62,7 +63,8 @@ sequenceDiagram
     participant staging
     participant repositorio
     repositorio->>working dir: checkout
-    working dir->>staging: commit
+    working dir->>staging: add
+    staging->>repositorio: commit
     staging->>repositorio: push
 ```
 
